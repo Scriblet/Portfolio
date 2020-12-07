@@ -3,7 +3,7 @@
 body {
   margin: 0;
   background-color: black;
-  font-size: 24px;
+  font-size: 28px;
   font-family: Poppins, sans-serif;
   color: white;
   display: flex;
@@ -42,6 +42,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
+  margin-top: 4vw;
 }
 
 .presentation-img {
@@ -53,20 +54,21 @@ body {
 
 .presentation-container {
   background: rgba(24, 24, 35, 0.75);
-  height: 480px;
-  width: 50vw;
-  min-width: 700px;
-  max-width: 1200px;
-  padding: 4vw;
-  padding-left: 5%;
+  height: auto;
+  min-width: 50vw;
+  max-width: 1000px;
+  padding: 2vw 0 2vw 4vw;
 }
 
 .presentation-text {
   font-weight: 700;
-  font-size: 4vh;
+  font-size: 5vh;
+  margin-left: 2vw;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-.presentation-frontend {
+.presentation-text-frontend {
   margin-top: 0;
-  background-color: aliceblue;
+  color: rgba(255, 255, 255, 0.5);
 }
