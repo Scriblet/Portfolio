@@ -5,24 +5,17 @@ import Experience from './Experience';
 
 class ExperienceList extends React.Component {
   render() {
-    const { experiences } = this.props;
+    const { experienceData } = this.props;
     return (
-      <div>
-        EXPERIÊNCIA
-        <h1>
-          Empresas onde trabalhei e <br />
-          Aprendizados que conquistei
-        </h1>
-        <div className="movie-list">
-          {experiences.map((experienceData) => (
-            <Experience movie={experienceData} key={experienceData.id} />
-          ))}
-        </div>
+      <div className="experience-list">
+        {experienceData.map((experience, index) => (
+          <Experience index={index} experienceData={experience} key={experienceData.experience} />
+        ))}
       </div>
     );
   }
 }
 
-ExperienceList.propTypes = { experiences: PropTypes.arrayOf(PropTypes.object).isRequired };
+ExperienceList.propTypes = { experienceData: PropTypes.arrayOf(PropTypes.object).isRequired };
 
 export default ExperienceList;

@@ -72,3 +72,40 @@ body {
   margin-top: 0;
   color: rgba(255, 255, 255, 0.5);
 }
+
+/* Experience */
+
+.experience-list {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-info-id {
+  color: #8491a0;
+  font-size: 170px;
+  font-weight: 400;
+  height: 200px;
+  margin: 96px 0 0 0;
+}
+
+.experience-info-title {
+  align-items: center;
+  display: flex;
+  font-size: 32px;
+  height: 180px;
+  margin: 0;
+  width: 400px;
+}
+
+.experience-info-text {
+  color: #8491a0;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  width: 480px;
+}
