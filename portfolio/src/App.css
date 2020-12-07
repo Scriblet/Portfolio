@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,4 +33,40 @@ body {
   background-color: purple;
   padding: 48px;
   font-weight: 600;
+}
+
+/* Presentation */
+
+.presentation {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.presentation-img {
+  margin: 64px;
+  max-width: 1180px;
+  min-width: 640px;
+  width: 920px;
+}
+
+.presentation-container {
+  background: rgba(24, 24, 35, 0.75);
+  height: 480px;
+  width: 50vw;
+  min-width: 700px;
+  max-width: 1200px;
+  padding: 4vw;
+  padding-left: 5%;
+}
+
+.presentation-text {
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.presentation-frontend {
+  margin-top: 0;
+  background-color: aliceblue;
 }
