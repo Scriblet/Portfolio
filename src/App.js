@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Presentation />
-      <Experience experiences={experiences} />
+      <Experience experienceData={experiences} />
     </div>
   );
 }
