@@ -5,6 +5,7 @@ import Presentation from './components/Presentation';
 import ExperienceList from './components/ExperienceList';
 import experienceData from './data/data';
 import Values from './components/Values';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Presentation />
       <ExperienceList experienceData={experienceData} />
       <Values />
+      <Skills />
     </div>
   );
 }
