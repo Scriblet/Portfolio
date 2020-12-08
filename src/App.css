@@ -151,27 +151,28 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
+  margin-left: 4em;
 }
 
 .value-text-title {
   font-weight: 800;
-  font-size: 4.4vw;
-  margin: 0 0.4em 0.4em;
+  font-size: clamp(24px, 4vw, 72px);
+  margin: 0
 }
 
 .value-text-body {
   font-weight: 300;
-  font-size: 1vw;
+  font-size: clamp(12px, 1vw, 22px);
   max-width: 32em;
-  margin-left: 32px;
+  margin-top: 48px;
 }
 
 .value-text-link {
   color: #d6dee2;
   text-decoration-line: underline;
   line-height: 150%;
-  font-size: 1.1vw;
-  margin-left: 32px;
+  font-size: clamp(12px, 1.1vw, 22px);
+  margin-top:8px;
 }
 
 .value-img {
