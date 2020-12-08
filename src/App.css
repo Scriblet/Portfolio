@@ -7,7 +7,9 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
+
 /* Header */
 .header {
   display: flex;
@@ -37,30 +39,37 @@ body {
 /* Presentation */
 
 .presentation {
-  align-content: center;
-  align-items: center;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 5em;
-  margin: 2em 2em;
-  border-bottom: 1px solid rgba(104, 96, 96, 0.4);
+  margin: 3em;
+}
+
+.presentation-img-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
 }
 
 .presentation-img {
-  margin: 2em;
-  max-width: 24em;
+  max-width: 100%;
+  position: absolute;
 }
 
 .presentation-container {
   background: rgba(24, 24, 35, 0.75);
-  width: 40em;
-  max-width: 1200px;
-  padding: 2em 4em 2em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50em;
+  width: 100%;
+  padding-left: 2em;
+  position: relative;
 }
 
 .presentation-text {
   font-weight: 700;
-  font-size: 4.8vh;
+  max-height: 2em;
+  font-size: clamp(8px, 4.8vw, 48px);
   margin: 1em;
 }
 
@@ -74,19 +83,20 @@ body {
 .experience-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 2em 4em 8em 6em;
+  max-width: 80em;
+  margin: 10em;
+  align-self: center;
 }
 
 .experience-tag {
   color: #8491a0;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 1vw;
+  font-size: clamp(8px, 1vw, 12px);
 }
 
 .experience-briefing {
-  font-size: 4vw;
+  font-size: clamp(26px, 3.6vw, 48px);
   max-width: 16em;
 }
 
@@ -95,7 +105,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 1em;
 }
 
 .experience-info {
@@ -106,7 +115,7 @@ body {
 
 .experience-info-id {
   color: #8491a0;
-  font-size: 9vw;
+  font-size: clamp(72px, 6vw, 180px);
   font-weight: 400;
   height: 1.2em;
   margin: 0;
@@ -115,17 +124,17 @@ body {
 .experience-info-title {
   align-items: center;
   display: flex;
-  font-size: 1.6vw;
-  height: 6em;
+  font-size: clamp(24px, 2vw, 32px);
+  height: 3em;
   width: 10em;
 }
 
 .experience-info-text {
   color: #8491a0;
-  font-size: 1.2vw;
+  font-size: clamp(16px, 1vw, 20px);
   line-height: 1.8em;
   letter-spacing: 0.1em;
-  width: 20em;
+  max-width: 20em;
 }
 
 /* Values */
@@ -135,28 +144,28 @@ body {
   display: flex;
   justify-content: space-between;
   height: 32em;
+  margin-top: 8em;
   padding-left: 1.5em;
-  margin-bottom: 4em;
-  max-width: 100%;
+  align-self: flex-end;
 }
 
 .value-text-container {
   display: flex;
   flex-direction: column;
   align-self: center;
-  max-height: 32em;
 }
 
 .value-text-title {
   font-weight: 800;
   font-size: 4.4vw;
-  margin: 0 0 0.4em;
+  margin: 0 0.4em 0.4em;
 }
 
 .value-text-body {
   font-weight: 300;
   font-size: 1vw;
   max-width: 32em;
+  margin-left: 32px;
 }
 
 .value-text-link {
@@ -164,6 +173,7 @@ body {
   text-decoration-line: underline;
   line-height: 150%;
   font-size: 1.1vw;
+  margin-left: 32px;
 }
 
 .value-img {

@@ -8,7 +8,7 @@ import Values from './components/Values';
 
 function App() {
   return (
-    <div>
+    <div className="mother">
       <Header />
       <Presentation />
       <ExperienceList experienceData={experienceData} />

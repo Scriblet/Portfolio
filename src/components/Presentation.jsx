@@ -6,7 +6,9 @@ class Presentation extends React.Component {
   render() {
     return (
       <div className="presentation">
-        <img className="presentation-img" src={ImgPresentation} alt="Imagem de Lucas Nonato" />
+        <div className="presentation-img-container">
+          <img className="presentation-img" src={ImgPresentation} alt="Imagem de Lucas Nonato" />
+        </div>
         <div className="presentation-container">
           <h1 className="presentation-text">Eu sou Lucas Nonato</h1>
           <h1 className="presentation-text">
