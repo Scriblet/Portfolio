@@ -46,7 +46,7 @@ body {
 
 .presentation-img {
   margin: 2em;
-  max-width: 40em;
+  max-width: 38em;
 }
 
 .presentation-container {
@@ -89,7 +89,7 @@ body {
 }
 
 .experience-list {
-  /* align-items: flex-start; */
+  align-items: flex-start;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -98,28 +98,28 @@ body {
 .experience-info {
   display: flex;
   flex-direction: column;
+  margin: 0 0.2em 0 0.2em;
 }
 
 .experience-info-id {
   color: #8491a0;
   font-size: 9vw;
   font-weight: 400;
-  height: 1em;
+  height: 1.2em;
   margin: 0;
 }
 
 .experience-info-title {
   align-items: center;
   display: flex;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   height: 6em;
-  margin: 0;
-  width: 20em;
+  width: 10em;
 }
 
 .experience-info-text {
   color: #8491a0;
-  font-size: 1vw;
+  font-size: 1.2vw;
   letter-spacing: 0.1em;
   width: 20em;
 }
