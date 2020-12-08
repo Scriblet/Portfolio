@@ -41,7 +41,9 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  margin-top: 8vw;
+  padding-bottom: 5em ;
+  margin: 1em 2em ;
+  border-bottom: 1px solid rgba(104, 96, 96, 0.4);
 }
 
 .presentation-img {
@@ -52,13 +54,13 @@ body {
 .presentation-container {
   background: rgba(24, 24, 35, 0.75);
   max-width: 1200px;
-  padding: 2vw 4vw 2vw 4vw;
+  padding: 2em 4em 2em 4em;
 }
 
 .presentation-text {
   font-weight: 700;
   font-size: 4.8vh;
-  margin-left: 2vw;
+  margin-left: 2em;
   margin-top: 1.6em;
   margin-bottom: 1.6em;
 }
@@ -73,7 +75,7 @@ body {
 .experience-container {
   display: flex;
   flex-direction: column;
-  margin: 10em 8em 8em 6em;
+  margin: 2em 8em 8em 6em;
 }
 
 .experience-tag {
@@ -93,6 +95,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 1em;
 }
 
 .experience-info {
