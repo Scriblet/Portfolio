@@ -30,7 +30,7 @@ body {
 
 .contact-menu {
   margin: 0;
-  background-color: blue;
+  background-color: purple;
   padding: 36px;
   font-weight: 600;
 }
@@ -75,16 +75,32 @@ body {
 
 /* Experience */
 
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 96px 64px 96px;
+}
+
+.experience-tag {
+  color: #8491a0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.experience-briefing {
+  font-size: 64px;
+  max-width: 1200px;
+}
+
 .experience-list {
   align-items: flex-start;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .experience-info {
   display: flex;
   flex-direction: column;
-  margin-bottom: 64px ;
 }
 
 .experience-info-id {
@@ -92,7 +108,7 @@ body {
   font-size: 170px;
   font-weight: 400;
   height: 200px;
-  margin: 96px 0 0 0;
+  margin: 0;
 }
 
 .experience-info-title {
