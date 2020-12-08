@@ -30,7 +30,7 @@ body {
 .contact-menu {
   margin: 0;
   background-color: purple;
-  padding: 1.4em;
+  padding: 1.2em;
   font-weight: 600;
 }
 
@@ -41,18 +41,19 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 5em ;
-  margin: 1em 2em ;
+  padding-bottom: 5em;
+  margin: 2em 2em;
   border-bottom: 1px solid rgba(104, 96, 96, 0.4);
 }
 
 .presentation-img {
   margin: 2em;
-  max-width: 38em;
+  max-width: 24em;
 }
 
 .presentation-container {
   background: rgba(24, 24, 35, 0.75);
+  width: 40em;
   max-width: 1200px;
   padding: 2em 4em 2em 4em;
 }
@@ -60,9 +61,7 @@ body {
 .presentation-text {
   font-weight: 700;
   font-size: 4.8vh;
-  margin-left: 2em;
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin: 1em;
 }
 
 .presentation-text-frontend {
@@ -75,7 +74,8 @@ body {
 .experience-container {
   display: flex;
   flex-direction: column;
-  margin: 2em 8em 8em 6em;
+  justify-content: center;
+  margin: 2em 4em 8em 6em;
 }
 
 .experience-tag {
@@ -123,6 +123,7 @@ body {
 .experience-info-text {
   color: #8491a0;
   font-size: 1.2vw;
+  line-height: 1.8em;
   letter-spacing: 0.1em;
   width: 20em;
 }
@@ -134,7 +135,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 32em;
-  padding-left: 1.4em;
+  padding-left: 1.5em;
   margin-bottom: 4em;
   max-width: 100%;
 }
