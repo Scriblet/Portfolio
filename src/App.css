@@ -78,7 +78,7 @@ body {
 .experience-container {
   display: flex;
   flex-direction: column;
-  margin: 32px 96px 64px 96px;
+  margin: 128px 96px 64px 96px;
 }
 
 .experience-tag {
@@ -125,4 +125,24 @@ body {
   font-size: 20px;
   letter-spacing: 0.1em;
   width: 480px;
+}
+
+/* Values */
+
+.value-container {
+  background: #584732;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding-left: 64px;
+  margin-bottom: 128px;
+}
+
+.value-text-container {
+align-self: center;
+}
+
+.value-img {
+  height: 500px;
+  align-self: baseline;
 }
