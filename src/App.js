@@ -3,9 +3,10 @@ import './App.css';
 import Header from './components/Header';
 import Presentation from './components/Presentation';
 import ExperienceList from './components/ExperienceList';
-import experienceData from './data/data';
+import experienceData from './data/experienceData';
+import skillsData from './data/skillsData';
 import Values from './components/Values';
-import Skills from './components/Skills';
+import SkillsList from './components/SkillsList';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Presentation />
       <ExperienceList experienceData={experienceData} />
       <Values />
-      <Skills />
+      <SkillsList skillsData={skillsData} />
     </div>
   );
 }

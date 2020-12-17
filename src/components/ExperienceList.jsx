@@ -12,6 +12,7 @@ class ExperienceList extends React.Component {
         <h1 className="experience-briefing">
           Empresas onde trabalhei e Aprendizados que conquistei
         </h1>
+
         <div className="experience-list">
           {experienceData.map((experience, index) => (
             <Experience index={index} experienceData={experience} key={experienceData.experience} />
