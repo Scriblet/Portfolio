@@ -185,13 +185,12 @@ body {
 .skills-container {
   display: flex;
   flex-direction: column;
-  margin: 4em 2em 8em 4em;
+  margin: 4em 2em 4em 4em;
   align-items: center;
 }
 
 .skills-introduction {
   align-self:center;
-  padding-left: 2em;
 }
 
 .skills-introduction-title {
