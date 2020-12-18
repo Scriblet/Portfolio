@@ -9,16 +9,16 @@ class SkillsList extends React.Component {
     const { skillsData } = this.props;
 
     return (
-      <div>
-        <div>
-          <h1>Habilidades</h1>
-          <p>
+      <div className="skills-container">
+        <div className="skills-introduction">
+          <h1 className="skills-introduction-title">Habilidades</h1>
+          <p className="skills-introduction-text">
             Com habilidades em mais de 4 áreas diferentes do Desenvolvimento Web, buscando sempre me
             capacitar quando se trata de um projeto completo. Quaisquer que sejam suas necessidades,
             posso aceitar qualquer desafio.
           </p>
         </div>
-        <div>
+        <div className="skills-list">
           {skillsData.map((skill) => (
             <Skill skillData={skill} key={skillsData.title} />
           ))}

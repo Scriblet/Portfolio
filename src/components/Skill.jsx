@@ -9,10 +9,10 @@ class Skill extends React.Component {
       skillData: { icon, title, text },
     } = this.props;
     return (
-      <div>
-        <img src={icon} alt="Ícone da skill" />
-        <h2>{title}</h2>
-        <text>{text}</text>
+      <div className="skill-container">
+        <img src={icon} alt="Ícone da skill" className="skill-img" />
+        <h2 className="skill-title">{title}</h2>
+        <text className="skill-text">{text}</text>
       </div>
     );
   }

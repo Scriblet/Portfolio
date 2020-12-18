@@ -108,7 +108,7 @@ body {
 .experience-info {
   display: flex;
   flex-direction: column;
-  margin: 0 0.2em 0 0.2em;
+  padding: 0.4em;
 }
 
 .experience-info-id {
@@ -157,7 +157,7 @@ body {
 .value-text-title {
   font-weight: 800;
   font-size: clamp(24px, 4vw, 72px);
-  margin: 0
+  margin: 0;
 }
 
 .value-text-body {
@@ -172,10 +172,60 @@ body {
   text-decoration-line: underline;
   line-height: 150%;
   font-size: clamp(12px, 1.1vw, 22px);
-  margin-top:8px;
+  margin-top: 8px;
 }
 
 .value-img {
   height: 32em;
   align-self: baseline;
 }
+
+/* Skills */
+
+.skills-container {
+  display: flex;
+  margin: 4em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills-introduction {
+  max-width: 580px;
+  align-self:flex-start;
+}
+
+.skills-introduction-title {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: clamp(48px, 2.6vw, 96px);
+}
+
+.skills-introduction-text {
+  font-size: clamp(18px, 0.8vw, 22px);
+  color: #8491A0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2em 0 4em 0;
+}
+
+.skill-title {
+  margin: 0.6em 0 0.6em 0;
+}
+
+.skill-img {
+  height: 3em;
+}
+
+.skill-text {
+  color: #8491A0;
+}
+
+.skill-container {
+  max-width: 340px;
+  padding:2em 6em 0 0;
+}
+
