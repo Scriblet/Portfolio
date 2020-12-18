@@ -12,11 +12,6 @@ class SkillsList extends React.Component {
       <div className="skills-container">
         <div className="skills-introduction">
           <h1 className="skills-introduction-title">Habilidades</h1>
-          <p className="skills-introduction-text">
-            Com habilidades em mais de 4 áreas diferentes do Desenvolvimento Web, buscando sempre me
-            capacitar quando se trata de um projeto completo. Quaisquer que sejam suas necessidades,
-            posso aceitar qualquer desafio.
-          </p>
         </div>
         <div className="skills-list">
           {skillsData.map((skill) => (

@@ -184,14 +184,14 @@ body {
 
 .skills-container {
   display: flex;
-  margin: 4em;
   flex-direction: column;
-  align-items: flex-start;
+  margin: 4em 2em 8em 4em;
+  align-items: center;
 }
 
 .skills-introduction {
-  max-width: 580px;
-  align-self:flex-start;
+  align-self:center;
+  padding-left: 2em;
 }
 
 .skills-introduction-title {
@@ -200,16 +200,11 @@ body {
   font-size: clamp(48px, 2.6vw, 96px);
 }
 
-.skills-introduction-text {
-  font-size: clamp(18px, 0.8vw, 22px);
-  color: #8491A0;
-}
-
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 2em 0 4em 0;
+  justify-content: center;
+  max-width: 2000px;
 }
 
 .skill-title {
@@ -225,7 +220,7 @@ body {
 }
 
 .skill-container {
-  max-width: 380px;
-  padding:2em 6em 0 0;
+  max-width: 320px;
+  padding:2em 2em 0 2em;
 }
 
