@@ -20,7 +20,7 @@ class SkillsList extends React.Component {
         </div>
         <div>
           {skillsData.map((skill) => (
-            <Skill skillData={skill} />
+            <Skill skillData={skill} key={skillsData.title} />
           ))}
         </div>
       </div>
