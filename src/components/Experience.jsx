@@ -1,12 +1,11 @@
 /* eslint-disable react/destructuring-assignment */
-/* eslint-disable no-console */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 class Experience extends React.Component {
   render() {
-    const colors = ['#3EC850', '#3C84C7', '#E95D90'];
+    const colors = ['#0FA36B', '#3C84C7', '#E95D90'];
     const { index } = this.props;
     const {
       experienceData: { id, experience, text },

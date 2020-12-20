@@ -120,11 +120,11 @@ body {
 }
 
 .experience-info-title {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   font-size: clamp(24px, 2vw, 32px);
   height: 3em;
-  width: 10em;
+  width: 360px;
 }
 
 .experience-info-text {
@@ -132,7 +132,7 @@ body {
   font-size: clamp(16px, 1vw, 20px);
   line-height: 1.8em;
   letter-spacing: 0.1em;
-  max-width: 20em;
+  max-width: 23.6em;
 }
 
 /* Values */
@@ -185,7 +185,7 @@ body {
 .skills-container {
   display: flex;
   flex-direction: column;
-  margin: 4em 2em 4em 4em;
+  margin: 4em 2em 0 4em;
   align-items: center;
 }
 

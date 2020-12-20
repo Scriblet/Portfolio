@@ -1,7 +1,7 @@
 const experiences = [
   {
     id: '01',
-    experience: 'Trybe, Estudante',
+    experience: 'Trybe, Estudante Desenv. de Software',
     text: `Atualmente estudante de  JavaScript, HTML,
     CSS, React, Node, Express.js, SQL, Git entre 
     outras linguagens e frameworks. Com um currículo desenhado em parceria com
@@ -20,10 +20,10 @@ const experiences = [
   },
   {
     id: '03',
-    experience: `Startup Weekend - Covid 19, 
+    experience: `Startup Weekend, 
     UI Design Mentor`,
     text:
-      'Mentor do maior evento de empreendedorismo do mundo, onde tiveram +2000 participantes buscando soluções buscando minimizar todos os impactos dessa pandemia no mundo. Todas as soluções seguiram as verticais da OMS, onde foi sugerido os seguintes desafios chave: Saúde; Populações Vulneráveis; Negócios; Comunidades; Educação; Entretenimento',
+      'Mentor do maior evento de empreendedorismo do mundo, onde tiveram +2000 participantes buscando soluções buscando minimizar todos os impactos dessa pandemia no mundo.',
   },
 ];
 
