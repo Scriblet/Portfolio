@@ -12,7 +12,9 @@ class Github extends React.Component {
             Se você é uma pessoa que gosta de analisar códigos, recomendo fortemente que dê uma
             olhada no meu Github. É por lá que hospedo grande parte do meus códigos.
           </p>
-          <p className="github-text-link">Siga-me no Github</p>
+          <a href="https://github.com/Scriblet" target="_blank" rel="noreferrer">
+            <p className="github-text-link">Siga-me no Github</p>
+          </a>
         </div>
         <div>
           <img src={githubImg} alt="Ícone do Github" className="github-img" />

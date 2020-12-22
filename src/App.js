@@ -9,6 +9,7 @@ import Values from './components/Values';
 import SkillsList from './components/SkillsList';
 import Portfolio from './components/Portfolio';
 import Github from './components/Github';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SkillsList skillsData={skillsData} />
       <Portfolio />
       <Github />
+      <Contact />
     </div>
   );
 }

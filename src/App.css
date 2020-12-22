@@ -180,6 +180,10 @@ body {
   height: 32em;
 }
 
+.refer-img {
+  position: absolute;
+}
+
 /* Skills */
 
 .skills-container {
@@ -333,4 +337,20 @@ body {
   align-self: baseline;
   height: 32em;
   margin-right: 5em;
+}
+
+/* Contact */
+
+.contact-form-container {
+  display: flex;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-label {
+  display: flex;
+  flex-direction: column;
 }
