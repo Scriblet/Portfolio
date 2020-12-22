@@ -12,6 +12,7 @@ class Portfolio extends React.Component {
           <p className="jobs-list-text">Trabalhos que realizei nos últimos 3 anos</p>
         </div>
         <JobsList portfolioData={portfolioData} />
+        <div className="jobs-list-soon">MAIS EM BREVE...</div>
       </div>
     );
   }

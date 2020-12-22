@@ -8,6 +8,7 @@ import skillsData from './data/skillsData';
 import Values from './components/Values';
 import SkillsList from './components/SkillsList';
 import Portfolio from './components/Portfolio';
+import Github from './components/Github';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Values />
       <SkillsList skillsData={skillsData} />
       <Portfolio />
+      <Github />
     </div>
   );
 }
