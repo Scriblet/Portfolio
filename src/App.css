@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-  margin: 0;
+  align-items: stretch;
   background-color: black;
-  font-family: Poppins, sans-serif;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  font-family: Poppins, sans-serif;
+  margin: 0;
 }
 
 /* Header */
 .header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 0 4em 0 4em;
-  align-items: center;
 }
 
 .header-menu {
-  display: flex;
   align-items: center;
+  display: flex;
   margin: 0;
 }
 
@@ -30,10 +30,10 @@ body {
 }
 
 .contact-menu {
-  margin: 0;
   background-color: purple;
-  padding: 1.2em;
   font-weight: 600;
+  margin: 0;
+  padding: 1.2em;
 }
 
 /* Presentation */
@@ -45,9 +45,9 @@ body {
 }
 
 .presentation-img-container {
-  width: 70%;
-  display: flex;
   align-items: center;
+  display: flex;
+  width: 70%;
 }
 
 .presentation-img {
@@ -59,23 +59,23 @@ body {
   background: rgba(24, 24, 35, 0.75);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 50em;
-  width: 100%;
+  justify-content: center;
   padding-left: 2em;
   position: relative;
+  width: 100%;
 }
 
 .presentation-text {
-  font-weight: 700;
-  max-height: 2em;
   font-size: clamp(8px, 4.8vw, 48px);
+  font-weight: 700;
   margin: 1em;
+  max-height: 2em;
 }
 
 .presentation-text-frontend {
-  margin-top: 0;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 0;
 }
 
 /* Experience */
@@ -88,9 +88,9 @@ body {
 
 .experience-tag {
   color: #8491a0;
+  font-size: clamp(8px, 1vw, 12px);
   font-weight: 300;
   text-transform: uppercase;
-  font-size: clamp(8px, 1vw, 12px);
 }
 
 .experience-briefing {
@@ -101,8 +101,8 @@ body {
 .experience-list {
   align-items: flex-start;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .experience-info {
@@ -138,65 +138,65 @@ body {
 /* Values */
 
 .value-container {
+  align-self: flex-end;
   background: #584732;
   display: flex;
-  justify-content: space-between;
   height: 32em;
+  justify-content: space-between;
   margin-top: 8em;
   padding-left: 1.5em;
-  align-self: flex-end;
 }
 
 .value-text-container {
+  align-self: center;
   display: flex;
   flex-direction: column;
-  align-self: center;
   margin-left: 4em;
 }
 
 .value-text-title {
-  font-weight: 800;
   font-size: clamp(24px, 4vw, 72px);
+  font-weight: 800;
   margin: 0;
 }
 
 .value-text-body {
-  font-weight: 300;
   font-size: clamp(12px, 1vw, 22px);
-  max-width: 32em;
+  font-weight: 300;
   margin-top: 48px;
+  max-width: 32em;
 }
 
 .value-text-link {
   color: #d6dee2;
-  text-decoration-line: underline;
-  line-height: 150%;
   font-size: clamp(12px, 1.1vw, 22px);
+  line-height: 150%;
   margin-top: 8px;
+  text-decoration-line: underline;
 }
 
 .value-img {
-  height: 32em;
   align-self: baseline;
+  height: 32em;
 }
 
 /* Skills */
 
 .skills-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 4em 2em 0 4em;
-  align-items: center;
+  margin: 4em 2em 0 2em;
 }
 
 .skills-introduction {
-  align-self:center;
+  align-self: center;
 }
 
 .skills-introduction-title {
-  margin-top: 0;
-  font-weight: 700;
   font-size: clamp(48px, 2.6vw, 96px);
+  font-weight: 700;
+  margin-top: 0;
 }
 
 .skills-list {
@@ -215,13 +215,66 @@ body {
 }
 
 .skill-text {
-  color: #8491A0;
+  color: #8491a0;
 }
 
 .skill-container {
   max-width: 320px;
-  padding:2em 2em 0 2em;
+  padding: 2em 2em 0 2em;
 }
 
 /* Portfolio */
 
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7.2em;
+}
+
+.jobs-list-texts {
+  margin-left: 72px;
+  text-align: start;
+}
+
+.jobs-list-title {
+  color: #8491a0;
+  font-size: 1vw;
+  font-weight: 300;
+  margin: 0;
+}
+
+.jobs-list-text {
+  font-size: 2.4vw;
+  font-weight: 700;
+  margin: 0;
+  max-width: 600px;
+}
+
+.jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 16px 32px 0 32px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.card-job {
+  background-color: #181823;
+  color: white;
+  display: flex;
+  filter: drop-shadow(-4px -4px 10px rgba(24, 24, 35, 0.4));
+  flex-direction: column;
+  margin-top: 32px;
+  width: 32em;
+}
+
+.card-job-img {
+  width: 100%;
+}
+
+.card-job-texts-container {
+  padding: 1.6em;
+}

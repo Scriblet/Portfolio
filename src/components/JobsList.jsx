@@ -9,12 +9,10 @@ class JobsList extends React.Component {
     console.log(this.props);
     const { portfolioData } = this.props;
     return (
-      <div>
-        <div>
-          {portfolioData.map((job, index) => (
-            <Job index={index} jobData={job} key={portfolioData.id} />
-          ))}
-        </div>
+      <div className="jobs-list">
+        {portfolioData.map((job, index) => (
+          <Job index={index} jobData={job} key={portfolioData.id} />
+        ))}
       </div>
     );
   }
