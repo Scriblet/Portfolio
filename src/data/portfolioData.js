@@ -25,7 +25,7 @@ const portfolioData = [
   {
     id: 2,
     img: siteMyCertify,
-    href: 'https://xd.adobe.com/view/0fc5c877-163f-4980-98e7-99050fc7ecb2-5a96/',
+    href: 'https://xd.adobe.com/view/b35eafca-48f3-41a4-7760-1bc84f4e9671-c56f/',
     alt: 'Imagem de computador em mesa de madeira com a aplicação My Certify em tela',
     title: 'Design - Web My Certify',
     text:
