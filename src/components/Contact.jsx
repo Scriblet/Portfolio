@@ -1,5 +1,9 @@
+/* eslint-disable no-alert */
+/* eslint-disable class-methods-use-this */
+/* eslint-disable no-console */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -7,25 +11,42 @@ class Contact extends React.Component {
     this.state = { name: '', email: '', message: '' };
 
     this.handleChange = this.handleChange.bind(this);
+    this.clearInputs = this.clearInputs.bind(this);
+    this.emailjs = this.emailjs.bind(this);
   }
 
   handleChange(event) {
     const { value } = event.target;
-    this.setState({ [event.target.name]: value });
+    this.setState({ [event.target.id]: value });
   }
 
-  // function sendEmail(e) {
-  //   e.preventDefault();
+  clearInputs() {
+    this.setState({ name: '', email: '', message: '' });
+  }
 
-  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // }
+  sendEmail(e) {
+    emailjs
+      .sendForm('service_t2oan2b', 'template_jxh1fs2', e.target, 'user_DhSr30V1iRuKT3WJojzXc')
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
+  emailjs(event) {
+    event.preventDefault();
+    this.sendEmail(event);
+    this.clearInputs();
+    alert('MENSAGEM ENVIADA');
+  }
 
   render() {
+    console.log(emailjs);
+
     const { name, email, message } = this.state;
     return (
       <div className="contact-form-container">
@@ -36,16 +57,17 @@ class Contact extends React.Component {
             comigo.
           </p>
         </div>
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={this.emailjs}>
           <label className="contact-form-label" htmlFor="teste">
             Nome
             <input
               className="contact-form-input"
               type="text"
-              name="name"
-              id="name-form-id"
+              name="user_name"
+              id="name"
               value={name}
               onChange={this.handleChange}
+              required
             />
           </label>
           <label className="contact-form-label" htmlFor="email-form-id">
@@ -53,10 +75,11 @@ class Contact extends React.Component {
             <input
               className="contact-form-input"
               type="email"
-              name="email"
-              id="email-form-id"
+              name="user_email"
+              id="email"
               value={email}
               onChange={this.handleChange}
+              required
             />
           </label>
           <label className="contact-form-label" htmlFor="message-form-id">
@@ -64,12 +87,13 @@ class Contact extends React.Component {
             <textarea
               className="contact-form-textarea"
               name="message"
-              id="message-form-id"
+              id="message"
               value={message}
               onChange={this.handleChange}
+              required
             />
           </label>
-          <button className="contact-form-button" type="button">
+          <button className="contact-form-button" type="submit" value="Send">
             ENVIAR MENSAGEM
           </button>
         </form>
