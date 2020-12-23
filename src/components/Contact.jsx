@@ -14,6 +14,17 @@ class Contact extends React.Component {
     this.setState({ [event.target.name]: value });
   }
 
+  // function sendEmail(e) {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // }
+
   render() {
     const { name, email, message } = this.state;
     return (
@@ -41,7 +52,7 @@ class Contact extends React.Component {
             Email
             <input
               className="contact-form-input"
-              type="text"
+              type="email"
               name="email"
               id="email-form-id"
               value={email}
@@ -59,7 +70,7 @@ class Contact extends React.Component {
             />
           </label>
           <button className="contact-form-button" type="button">
-            Enviar Mensagem
+            ENVIAR MENSAGEM
           </button>
         </form>
       </div>
