@@ -10,6 +10,7 @@ import SkillsList from './components/SkillsList';
 import Portfolio from './components/Portfolio';
 import Github from './components/Github';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Portfolio />
       <Github />
       <Contact />
+      <Footer />
     </div>
   );
 }

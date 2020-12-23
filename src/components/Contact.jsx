@@ -49,7 +49,7 @@ class Contact extends React.Component {
 
     const { name, email, message } = this.state;
     return (
-      <div className="contact-form-container">
+      <div id="contact" className="contact-form-container">
         <div className="contact-form-texts">
           <h1 className="contact-form-title">Vamos lá</h1>
           <p className="contact-form-text">

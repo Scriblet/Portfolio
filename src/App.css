@@ -37,6 +37,8 @@ button:active {
 .header-menu-itens {
   font-weight: 300;
   margin: 0 1.6em 0 1.6em;
+  text-decoration: none;
+  color: white;
 }
 
 .contact-menu {
@@ -191,7 +193,7 @@ button:active {
 }
 
 .refer-img {
-  position: absolute;
+  display: none;
 }
 
 /* Skills */
@@ -355,7 +357,8 @@ button:active {
   display: flex;
   justify-content: space-around;
   margin: 128px 0 64px 0;
-  padding: 0 16em 0 16em;
+  padding: 0 12em 0 12em;
+  flex-wrap: wrap;
 }
 
 .contact-form-title {
@@ -387,7 +390,7 @@ button:active {
   margin-top: 16px;
   border: none;
   height: 50px;
-  width: 40em;
+  width: 30em;
   padding-left: 1em;
   font-family: Poppins, sans-serif;
 }
@@ -397,7 +400,6 @@ button:active {
   border: none;
   color: white;
   margin-top: 16px;
-  width: 39em;
   height: 100px;
   padding: 1em;
   font-family: Poppins, sans-serif;
@@ -412,4 +414,41 @@ button:active {
   color: white;
   line-height: 150%;
   padding: 16px 0 16px;
+}
+
+/* Footer */
+
+.footer-container {
+  background-color: #181823;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 420px;
+}
+
+.footer-leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
+
+.footer-icons {
+  margin-right: 1em;
+}
+
+.footer-text {
+  color: #8491A0;
+  font-weight: 200;
+}
+
+.footer-rightside {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-itens {
+  text-decoration: none;
+  color: white;
+  margin-top: 16px;
 }

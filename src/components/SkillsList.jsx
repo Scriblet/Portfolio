@@ -9,7 +9,7 @@ class SkillsList extends React.Component {
     const { skillsData } = this.props;
 
     return (
-      <div className="skills-container">
+      <div id="skills" className="skills-container">
         <div className="skills-introduction">
           <h1 className="skills-introduction-title">Habilidades</h1>
         </div>
