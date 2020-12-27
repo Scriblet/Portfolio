@@ -10,8 +10,12 @@ class Footer extends React.Component {
         <div className="footer-leftside">
           <div className="footer-name-area">
             <h1 className="footer-name">Lucas N.</h1>
-            <img className="footer-icons" src={githubIcon} alt="Ícone do Github" />
-            <img className="footer-icons" src={linkedinIcon} alt="Ícone do LinkedIn" />
+            <a href="https://github.com/Scriblet" target="_blank" rel="noreferrer">
+              <img className="footer-icons" src={githubIcon} alt="Ícone do Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-nonato1/" target="_blank" rel="noreferrer">
+              <img className="footer-icons" src={linkedinIcon} alt="Ícone do LinkedIn" />
+            </a>
           </div>
           <div className="footer-text">
             <p>Página em constante construção</p>
