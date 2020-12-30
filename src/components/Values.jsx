@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import valueImg from '../img/multiracial-hands-coming-together.jpg';
+import '../styles/Values.css';
 
 class Values extends React.Component {
   render() {

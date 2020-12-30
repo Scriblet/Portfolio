@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import ImgPresentation from '../img/Imagem lucas presetation.png';
+import '../styles/Presentation.css';
 
 class Presentation extends React.Component {
   render() {

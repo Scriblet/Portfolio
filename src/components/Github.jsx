@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import githubImg from '../img/github-logo.svg';
+import '../styles/Github.css';
 
 class Github extends React.Component {
   render() {

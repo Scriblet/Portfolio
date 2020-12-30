@@ -2,6 +2,7 @@
 import React from 'react';
 import JobsList from './JobsList';
 import portfolioData from '../data/portfolioData';
+import '../styles/Portfolio.css';
 
 class Portfolio extends React.Component {
   render() {

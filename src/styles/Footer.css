@@ -1,0 +1,35 @@
+
+.footer-container {
+    background-color: #181823;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 420px;
+  }
+  
+  .footer-leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+  }
+  
+  .footer-icons {
+    margin-right: 1em;
+  }
+  
+  .footer-text {
+    color: #8491A0;
+    font-weight: 200;
+  }
+  
+  .footer-rightside {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-menu-itens {
+    text-decoration: none;
+    color: white;
+    margin-top: 16px;
+  }

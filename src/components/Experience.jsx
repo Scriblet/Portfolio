@@ -2,6 +2,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Experience.css';
 
 class Experience extends React.Component {
   render() {

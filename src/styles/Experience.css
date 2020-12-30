@@ -1,0 +1,55 @@
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10em;
+  }
+  
+  .experience-tag {
+    color: #8491a0;
+    font-size: clamp(12px, 1vw, 16px);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .experience-briefing {
+    font-size: clamp(26px, 3.6vw, 48px);
+    max-width: 16em;
+  }
+  
+  .experience-list {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .experience-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4em;
+  }
+  
+  .experience-info-id {
+    color: #8491a0;
+    font-size: clamp(72px, 6vw, 180px);
+    font-weight: 400;
+    height: 1.2em;
+    margin: 0;
+  }
+  
+  .experience-info-title {
+    align-items: flex-start;
+    display: flex;
+    font-size: clamp(24px, 2vw, 32px);
+    height: 3em;
+    width: 360px;
+  }
+  
+  .experience-info-text {
+    color: #8491a0;
+    font-size: clamp(16px, 1vw, 20px);
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    max-width: 23.6em;
+  }

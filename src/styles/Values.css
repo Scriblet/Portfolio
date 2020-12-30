@@ -1,0 +1,47 @@
+
+.value-container {
+  align-self: flex-end;
+  background: #584732;
+  display: flex;
+  height: 32em;
+  justify-content: space-between;
+  margin-top: 8em;
+  padding-left: 1.5em;
+}
+
+.value-text-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+}
+
+.value-text-title {
+  font-size: clamp(24px, 4vw, 72px);
+  font-weight: 800;
+  margin: 0;
+}
+
+.value-text-body {
+  font-size: clamp(12px, 1vw, 22px);
+  font-weight: 300;
+  margin-top: 48px;
+  max-width: 32em;
+}
+
+.value-text-link {
+  color: #d6dee2;
+  font-size: clamp(12px, 1.1vw, 22px);
+  line-height: 150%;
+  margin-top: 8px;
+  text-decoration-line: underline;
+}
+
+.value-img {
+  align-self: baseline;
+  height: 32em;
+}
+
+.refer-img {
+  display: none;
+}

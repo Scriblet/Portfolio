@@ -2,6 +2,7 @@
 import React from 'react';
 import githubIcon from '../img/github-logo-mini.svg';
 import linkedinIcon from '../img/linkedin-logo-mini.svg';
+import '../styles/Footer.css';
 
 class Footer extends React.Component {
   render() {

@@ -4,6 +4,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import emailjs from 'emailjs-com';
+import '../styles/Contact.css';
 
 class Contact extends React.Component {
   constructor(props) {
