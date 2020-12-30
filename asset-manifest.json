@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.357e030e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ef628f42.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ef628f42.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.9b3f779a.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9b3f779a.js.map",
-    "static/js/2.47ace816.chunk.js": "/Portfolio/static/js/2.47ace816.chunk.js",
-    "static/js/2.47ace816.chunk.js.map": "/Portfolio/static/js/2.47ace816.chunk.js.map",
-    "static/js/3.f5bc2e25.chunk.js": "/Portfolio/static/js/3.f5bc2e25.chunk.js",
-    "static/js/3.f5bc2e25.chunk.js.map": "/Portfolio/static/js/3.f5bc2e25.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.6b7e71da.chunk.css",
+    "main.js": "/Portfolio/static/js/main.49f8305c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.49f8305c.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.943709fc.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.943709fc.js.map",
+    "static/js/2.34786597.chunk.js": "/Portfolio/static/js/2.34786597.chunk.js",
+    "static/js/2.34786597.chunk.js.map": "/Portfolio/static/js/2.34786597.chunk.js.map",
+    "static/js/3.dbfddeac.chunk.js": "/Portfolio/static/js/3.dbfddeac.chunk.js",
+    "static/js/3.dbfddeac.chunk.js.map": "/Portfolio/static/js/3.dbfddeac.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.357e030e.chunk.css.map": "/Portfolio/static/css/main.357e030e.chunk.css.map",
-    "static/js/2.47ace816.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.47ace816.chunk.js.LICENSE.txt",
+    "static/css/main.6b7e71da.chunk.css.map": "/Portfolio/static/css/main.6b7e71da.chunk.css.map",
+    "static/js/2.34786597.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.34786597.chunk.js.LICENSE.txt",
     "static/media/CSSIcon.0ea0f1d7.svg": "/Portfolio/static/media/CSSIcon.0ea0f1d7.svg",
     "static/media/HTMLIcon.d66583d0.svg": "/Portfolio/static/media/HTMLIcon.d66583d0.svg",
     "static/media/Imagem lucas presetation.0583b6ec.png": "/Portfolio/static/media/Imagem lucas presetation.0583b6ec.png",
@@ -29,9 +29,9 @@
     "static/media/multiracial-hands-coming-together.e8b5dacb.jpg": "/Portfolio/static/media/multiracial-hands-coming-together.e8b5dacb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b3f779a.js",
-    "static/js/2.47ace816.chunk.js",
-    "static/css/main.357e030e.chunk.css",
-    "static/js/main.ef628f42.chunk.js"
+    "static/js/runtime-main.943709fc.js",
+    "static/js/2.34786597.chunk.js",
+    "static/css/main.6b7e71da.chunk.css",
+    "static/js/main.49f8305c.chunk.js"
   ]
 }
