@@ -6,7 +6,7 @@ const experiences = [
     CSS, React, Node, Express.js, SQL, Git entre 
     outras linguagens e frameworks. Com um currículo desenhado em parceria com
     as maiores empresas de tecnologia do Brasil e
-    do mundo e ao longo da formação.`,
+    do mundo.`,
   },
   {
     id: '02',
