@@ -2,6 +2,7 @@ import appCompass from '../img/mockDrop_Apple_AppCompass.jpg';
 import siteMeme from '../img/mockDrop_MacBookPro_SiteMeme.jpg';
 import appSloop from '../img/mockDrop_iPhone6_AppSloop.jpg';
 import siteMyCertify from '../img/mockDrop_MacBookPro_SiteMyCertify.jpg';
+import starWarsMockup from '../img/mockupStarwars.jpg';
 
 const portfolioData = [
   {
@@ -39,6 +40,15 @@ const portfolioData = [
     title: 'Site - Meme Generator',
     text:
       'Projeto para o curso de desenv. de Software da Trybe, onde neste site é possível criar Memes com as imagens que bem quiser!',
+  },
+  {
+    id: 4,
+    img: starWarsMockup,
+    href: 'https://scriblet.github.io/StarWars-Datable-Hooks/',
+    alt: 'Imagem de computador em mesa com a imagem do Darth Vader em tela',
+    title: 'Site - Star Wars Datable Hooks',
+    text:
+      'Projeto para o curso de desenv. de Software da Trybe, onde neste site é possível filtrar a lista de planetas do universo Star Wars usando Context API e Hooks para controlar',
   },
 ];
 
